@@ -1,0 +1,2 @@
+# Optional: adds a word-cloud image (as in the professor's notebook). The project works without it.
+wordcloud

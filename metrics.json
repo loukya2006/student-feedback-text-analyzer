@@ -1,0 +1,69 @@
+{
+  "test_accuracy": 0.7143,
+  "train_accuracy": 0.9731,
+  "baseline_accuracy": 0.5625,
+  "baseline_class": "positive",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "confusion_matrix": [
+    [
+      19,
+      5,
+      1
+    ],
+    [
+      5,
+      10,
+      9
+    ],
+    [
+      4,
+      8,
+      51
+    ]
+  ],
+  "recall_per_class": {
+    "negative": 0.76,
+    "neutral": 0.417,
+    "positive": 0.81
+  },
+  "n_train": 446,
+  "n_test": 112,
+  "train_class_counts": {
+    "negative": 97,
+    "neutral": 97,
+    "positive": 252
+  },
+  "test_class_counts": {
+    "negative": 25,
+    "neutral": 24,
+    "positive": 63
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "class_weight": "balanced",
+  "max_features": 2500,
+  "stopword_source": "NLTK",
+  "cleaning": {
+    "rows_loaded": 1110,
+    "missing_label_removed": 5,
+    "missing_text_removed": 0,
+    "empty_after_preprocessing_removed": 0,
+    "class_counts_labelled": {
+      "negative": 147,
+      "neutral": 150,
+      "positive": 808
+    },
+    "conflicting_texts_removed": 3,
+    "duplicates_removed": 516,
+    "rows_kept": 558,
+    "class_counts_kept": {
+      "negative": 122,
+      "neutral": 121,
+      "positive": 315
+    }
+  }
+}
